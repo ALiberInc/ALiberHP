@@ -7989,7 +7989,7 @@ body[data-page="contact"] .nav-bar .hamburger span {
 .contact-page-wrapper .photo {
     overflow: hidden;
     position: relative;
-    background: url("../img/contact/contact1-49b9085a.jpg") center bottom no-repeat;
+    background: url("../img/contact/contact1.jpg") center bottom no-repeat;
     background-size: 100%;
     text-align: center;
     padding: 0
@@ -8173,31 +8173,31 @@ body[data-page="contact"] .css-slider .slide.active {
 }
 
 body[data-page="contact"] .css-slider .slide.one {
-    background: url("../img/contact/contact1-49b9085a.jpg") left center no-repeat;
+    background: url("../img/contact/contact1.jpg") left center no-repeat;
     background-size: cover
 }
 
 body[data-page="contact"] .css-slider .slide.two {
-    background: url("../img/contact/contact2-517e8001.jpg") center center no-repeat
+    background: url("../img/contact/contact2.jpg") center center no-repeat
 }
 
 body[data-page="contact"] .css-slider .slide.three {
-    background: url("../img/contact/contact3-bcd629ba.jpg") center bottom no-repeat;
+    background: url("../img/contact/contact3.jpg") center bottom no-repeat;
     background-size: cover
 }
 
 body[data-page="contact"] .css-slider .slide.four {
-    background: url("../img/contact/contact4-3689aac2.jpg") center bottom no-repeat;
+    background: url("../img/contact/contact4.jpg") center bottom no-repeat;
     background-size: cover
 }
 
 body[data-page="contact"] .css-slider .slide.five {
-    background: url("../img/contact/contact5-bd336750.jpg") center bottom no-repeat;
+    background: url("../img/contact/contact5.jpg") center bottom no-repeat;
     background-size: cover
 }
 
 body[data-page="contact"] .css-slider .slide.six {
-    background: url("../img/contact/contact6-440ea7df.jpg") top center no-repeat;
+    background: url("../img/contact/contact6.jpg") top center no-repeat;
     background-size: cover
 }
 

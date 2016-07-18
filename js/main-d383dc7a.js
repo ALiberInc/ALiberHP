@@ -24376,9 +24376,13 @@ var YAxis = function (t, e) {
                 _gaq.push(["_trackEvent", "landingPage", "click", "Autofill"])
             }), t('body[data-page="contact"] form').on("submit", function () {
                 _gaq.push(["_trackEvent", "contact", "submit", t(this).attr("data-form")])
-            }), t('body[data-page="contact"] .cta.default').on("click", function () {
+            }), 
+            /*  
+                t('body[data-page="contact"] .cta.default').on("click", function () {
                 _gaq.push(["_trackEvent", "contact", "click", t(this).attr("id")])
-            }), t(".btd-link").on("click", function () {
+            }),
+            */
+            t(".btd-link").on("click", function () {
                 _gaq.push(["_trackEvent", "behindTheDesign", "click", t(this).attr("data-btd-pdf")])
             }), t('[data-name="filler-tile"]').on("click", ".cta", function () {
                 _gaq.push(["_trackEvent", "workTileCTA", "click", "Filler Tile – Contact Us"])
