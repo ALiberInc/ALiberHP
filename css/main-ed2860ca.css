@@ -414,7 +414,7 @@ hr {
     clear: both
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .container {
         width: 750px
     }
@@ -737,7 +737,7 @@ hr {
     margin-left: 100%
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .col-sm-1,
     .col-sm-2,
     .col-sm-3,
@@ -1596,7 +1596,7 @@ select[multiple].input-lg {
     color: #737373
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .form-inline .form-group {
         display: inline-block;
         margin-bottom: 0;
@@ -1666,7 +1666,7 @@ select[multiple].input-lg {
     padding-top: 7px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .form-horizontal .control-label {
         text-align: right
     }
@@ -1825,7 +1825,7 @@ select[multiple].input-lg {
     margin-left: 0
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .modal-dialog {
         width: 600px;
         margin: 30px auto
@@ -1925,7 +1925,7 @@ select[multiple].input-lg {
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 1200px) and (max-width: 991px) {
     .visible-sm {
         display: block !important
     }
@@ -1979,7 +1979,7 @@ select[multiple].input-lg {
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 1200px) and (max-width: 991px) {
     .hidden-sm {
         display: none !important
     }
@@ -2702,7 +2702,7 @@ body.vjs-full-window {
 .video-js.vjs-fullscreen {
     position: fixed;
     overflow: hidden;
-    z-index: 1000;
+    z-index: 1200;
     left: 0;
     top: 0;
     bottom: 0;
@@ -3745,7 +3745,7 @@ body {
     font-size: 19px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .hero h2 {
         font-size: 20px
     }
@@ -3819,7 +3819,7 @@ body .full-screen-overlay .close-overlay {
     color: #cccccc
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body .full-screen-overlay .close-overlay {
         right: 50px
     }
@@ -3909,7 +3909,7 @@ body {
     font-size: 14px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     html,
     body {
         font-size: 16px
@@ -3926,7 +3926,7 @@ p.small {
     font-size: 14px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     p {
         font-size: 21px
     }
@@ -3945,7 +3945,7 @@ h1,
     text-transform: uppercase
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     h1,
     .h1 {
         font-size: 66px
@@ -3966,7 +3966,7 @@ h2,
     line-height: 1.2em
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     h2,
     .h2 {
         font-size: 46px
@@ -4001,7 +4001,7 @@ h4,
     text-transform: uppercase
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     h4,
     .h4 {
         font-size: 16px
@@ -4021,7 +4021,7 @@ blockquote {
     font-size: 20px
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
     blockquote {
         font-size: 30px
     }
@@ -4452,7 +4452,7 @@ body[data-page="work"] .contact-form form .cta {
     line-height: 37px
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
     body[data-page="work"] #work-with-us .cta,
     body[data-page="work"] .contact-form form .cta {
         line-height: 28px
@@ -4530,7 +4530,7 @@ ul.level-1-nav a {
     transition: background 0.25s ease-in-out
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .nav-bar .nav-bar-inner {
         padding: 20px 50px
     }
@@ -4551,7 +4551,7 @@ ul.level-1-nav a {
     text-decoration: none
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .nav-bar .menu-text {
         opacity: 1
     }
@@ -4585,7 +4585,7 @@ ul.level-1-nav a {
     position: absolute
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .nav-bar .hamburger {
         right: 45px;
         top: 25px
@@ -4633,7 +4633,7 @@ ul.level-1-nav a {
     top: 74px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .nav-bar.hide-nav.scroll-up .menu-wrap,
     .nav-bar.hide-nav:hover .menu-wrap {
         top: 68px
@@ -4794,7 +4794,7 @@ ul.level-1-nav a {
     transform: translate3d(0, 0, 0)
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .nav-overlay#nav-overlay {
         width: 335px;
         right: -335px
@@ -4838,7 +4838,7 @@ ul.level-1-nav a {
     z-index: 1
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .nav-overlay .level-1-nav {
         text-align: left;
         margin: 40px auto;
@@ -4853,17 +4853,17 @@ ul.level-1-nav a {
     padding-bottom: 12px;
     opacity: 0;
     right: -30%;
-    -moz-transform: translateX(1000px);
-    -ms-transform: translateX(1000px);
-    -webkit-transform: translateX(1000px);
-    transform: translateX(1000px);
+    -moz-transform: translateX(1200px);
+    -ms-transform: translateX(1200px);
+    -webkit-transform: translateX(1200px);
+    transform: translateX(1200px);
     -webkit-transition: -webkit-transform 400ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 300ms ease-in 300ms;
     -moz-transition: -moz-transform 400ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 300ms ease-in 300ms;
     -o-transition: -o-transform 400ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 300ms ease-in 300ms;
     transition: transform 400ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 300ms ease-in 300ms
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .nav-overlay .level-1-nav li {
         padding-bottom: 10px
     }
@@ -4882,7 +4882,7 @@ ul.level-1-nav a {
     transition: all 300ms ease-in
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .nav-overlay .level-1-nav li a {
         font-size: 40px;
         text-align: right;
@@ -4906,7 +4906,7 @@ ul.level-1-nav a {
     display: none
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .nav-overlay .social {
         margin-right: 0;
         float: none;
@@ -5015,7 +5015,7 @@ ul.level-1-nav a {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .nav-footer {
         opacity: 0;
         padding: 0;
@@ -5036,7 +5036,7 @@ ul.level-1-nav a {
     margin: 0 auto
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .nav-footer .border {
         border-top: 1px solid #7ac9dd
     }
@@ -5303,7 +5303,7 @@ body[data-homepage-number="3"][data-nav-color="light"][data-dtway="0"].nav-open 
     width: 218px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .social {
         float: right;
         width: auto
@@ -5328,7 +5328,7 @@ body[data-homepage-number="3"][data-nav-color="light"][data-dtway="0"].nav-open 
     padding: 15px 0
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .social li {
         padding: 0
     }
@@ -5559,7 +5559,7 @@ body[data-page="ux-designer"] .footer {
     background: #fff
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .apply-now {
         padding: 100px 15px
     }
@@ -5622,7 +5622,7 @@ body[data-page="ux-designer"] .footer {
     margin-bottom: 15px
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .apply-now .job-info h4 {
         font-size: 17px;
         line-height: 24px
@@ -5634,7 +5634,7 @@ body[data-page="ux-designer"] .footer {
     padding-bottom: 20px
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .apply-now .job-info ul {
         padding-left: 30px
     }
@@ -5647,7 +5647,7 @@ body[data-page="ux-designer"] .footer {
     margin-bottom: 15px
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .apply-now .job-info li {
         font-size: 17px
     }
@@ -5703,7 +5703,7 @@ body[data-page="ux-designer"] .footer {
     backface-visibility: hidden
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .apply-now .apply-form-wrap .form-side .form-border {
         padding: 30px 40px
     }
@@ -5909,7 +5909,7 @@ body[data-page="ux-designer"] .footer {
     position: relative
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .apply-now .apply-form-wrap #submitbutton {
         margin: 30px 0 0 0
     }
@@ -5921,7 +5921,7 @@ body[data-page="ux-designer"] .footer {
     transition: background-color 0.25s linear, width 0.25s linear
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .apply-now .apply-form-wrap #submitbutton button {
         padding: 0 18px
     }
@@ -5939,14 +5939,14 @@ body[data-page="ux-designer"] .footer {
     display: none
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .apply-now .apply-form-wrap #resume-section {
         display: block
     }
 }
 
 #home {
-    background-image: url("../img/homepage-bg-sm.jpg");
+    background-image: url("../img/homepage_bg_tate.jpg");
     z-index: 1;
     padding: 0;
     background-repeat: no-repeat;
@@ -5957,11 +5957,11 @@ body[data-page="ux-designer"] .footer {
     text-align: center
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     #home {
      /*   background-image: none */
 /*新增 */
-    background-image: url("../img/IMG_0639.jpg");
+    background-image: url("../img/homepage_bg_yoko.jpg");
     z-index: 1;
     padding: 0;
     background-repeat: no-repeat;
@@ -5998,7 +5998,7 @@ body[data-page="ux-designer"] .footer {
     color: #fff
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     #home p {
         max-width: 760px;
         margin: 20px auto 40px auto
@@ -6016,7 +6016,7 @@ body[data-page="ux-designer"] .footer {
     min-width: 180px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     #home .cta {
         margin: 0 0 0 25px
     }
@@ -6038,14 +6038,14 @@ body[data-page="ux-designer"] .footer {
     left: 50%
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     #hero-video-wrapper {
         display: block
     }
 }
 
 .unity-touch #home {
-    background-image: url("../img/homepage-bg-sm.jpg") !important
+    background-image: url("../img/homepage_bg_tate.jpg") !important
 }
 
 .unity-touch #hero-video-wrapper {
@@ -6238,7 +6238,7 @@ body[data-homepage-number="4"] #home-section-4 h1 {
     font-size: 66px !important
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     body[data-homepage-number="4"] #home-section-4 h1 {
         font-size: 30px !important
     }
@@ -6329,7 +6329,7 @@ body[data-page="philosophy"] .home-bg h4 {
     margin-bottom: 15px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="philosophy"] .home-bg h4 {
         padding-bottom: 15px;
         margin-bottom: 0
@@ -6424,7 +6424,7 @@ body[data-page="philosophy"] .icon-arrow-down {
     display: none
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     body[data-page="philosophy"] .container {
         padding: 0 20px
     }
@@ -6440,7 +6440,7 @@ body[data-page="philosophy"] h1 {
     text-align: center
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="philosophy"] h1 {
         font-size: 77px;
         margin: 30px 0
@@ -6477,7 +6477,7 @@ body[data-page="philosophy"] section.dt-way-section .v-center {
 
 @media (max-width: 1199px) {
     body[data-page="philosophy"] section.dt-way-section {
-        height: 768px
+        height: 1200px
     }
 }
 
@@ -6523,7 +6523,7 @@ body[data-page="philosophy"] #think-big #hero-video-wrapper {
     left: 50%
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="philosophy"] #think-big #hero-video-wrapper {
         display: block
     }
@@ -6532,7 +6532,7 @@ body[data-page="philosophy"] #think-big #hero-video-wrapper {
 body[data-page="philosophy"] #think-big .icon-arrow-down {
     opacity: 0;
     visibility: hidden;
-    z-index: 1000;
+    z-index: 1200;
     display: block;
     -webkit-transition: opacity 0.45s linear;
     transition: opacity 0.45s linear
@@ -6585,7 +6585,7 @@ body[data-page="philosophy"] #mission-driven #timeline {
     transition: top 0.5s ease-in
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="philosophy"] #mission-driven #timeline {
         display: block
     }
@@ -6769,7 +6769,7 @@ body[data-page="philosophy"] #craft-everything {
     position: relative
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="philosophy"] #craft-everything {
         background: url("../img/philosophy/bg-craft-everything-0cb6dd91.jpg") center no-repeat;
         background-size: cover
@@ -6873,7 +6873,7 @@ body[data-page="philosophy"] #everyone img {
     width: 100px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="philosophy"] #everyone img {
         max-width: 100%;
         width: 350px;
@@ -6903,7 +6903,7 @@ body[data-page="philosophy"] #everyone #jp_container_1 {
     display: none
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="philosophy"] #everyone #jp_container_1 {
         display: block
     }
@@ -7175,7 +7175,7 @@ body[data-page="philosophy"] #design .wrapper .slider {
     width: 100%
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="philosophy"] #design .wrapper .slider {
         display: block;
         height: 180px;
@@ -7193,7 +7193,7 @@ body[data-page="philosophy"] #design .wrapper .slider ul {
     position: relative
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="philosophy"] #design .wrapper .slider ul {
         width: 250px
     }
@@ -7209,7 +7209,7 @@ body[data-page="philosophy"] #design .wrapper .slider ul li {
     transition: opacity, 0.8s
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="philosophy"] #design .wrapper .slider ul li {
         display: block
     }
@@ -7224,7 +7224,7 @@ body[data-page="philosophy"] #design .wrapper .slider ul li:first-child img {
     width: 120px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="philosophy"] #design .wrapper .slider ul li:first-child img {
         width: auto
     }
@@ -7241,7 +7241,7 @@ body[data-page="philosophy"] #design .wrapper .slider-control {
     display: none
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="philosophy"] #design .wrapper .slider-control {
         display: block
     }
@@ -7306,7 +7306,7 @@ body[data-page="philosophy"] #create-impact {
     overflow: hidden
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="philosophy"] #create-impact {
         background: url("../img/philosophy/bg-create-impact-17fe50e9.jpg") center no-repeat;
         background-size: cover
@@ -7322,7 +7322,7 @@ body[data-page="philosophy"] #pre-footer {
     text-align: center
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="philosophy"] #pre-footer {
         display: block;
         padding: 10px 0
@@ -7357,7 +7357,7 @@ body[data-page="philosophy"] #pre-footer .icon-printer {
     display: none
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="philosophy"] #pre-footer .icon-mug-tools,
     body[data-page="philosophy"] #pre-footer .icon-printer {
         display: table
@@ -8036,7 +8036,7 @@ body[data-page="contact"] .nav-bar .hamburger span {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .map-content-wrapper .map-content {
         width: 70%
     }
@@ -8126,7 +8126,7 @@ body[data-page="contact"] .nav-bar .hamburger span {
     text-align: left
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .map-content-wrapper .map-content .map-right p {
         font-size: 15px
     }
@@ -8271,7 +8271,7 @@ body[data-page="contact"] .map-close {
     text-align: center
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     #hero.work {
         background-image: url("../img/work/hero-bg-0d1b744c.jpg")
     }
@@ -8315,7 +8315,7 @@ body[data-page="contact"] .map-close {
     position: relative
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .work-with-us {
         padding: 40px 10px 70px
     }
@@ -8337,7 +8337,7 @@ body[data-page="contact"] .map-close {
     margin: 0 auto 20px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .work-with-us p {
         margin-bottom: 30px
     }
@@ -8361,7 +8361,7 @@ body[data-page="contact"] .map-close {
     margin: 0 auto
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .work-with-us img {
         float: right
     }
@@ -8373,7 +8373,7 @@ body[data-page="contact"] .map-close {
     margin: 0 auto
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .work-with-us .get-playbook {
         text-align: left;
         float: left;
@@ -8402,7 +8402,7 @@ body[data-page="contact"] .map-close {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .work-with-us .contact-wrap header h2 {
         font-size: 42px
     }
@@ -8491,7 +8491,7 @@ body[data-page="work-detail"] .hero {
     overflow: hidden
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="work-detail"] .hero {
         height: 90vh;
         min-height: 750px
@@ -8525,7 +8525,7 @@ body[data-page="work-detail"] .hero h1 {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
     body[data-page="work-detail"] .hero h1 {
         font-size: 34px
     }
@@ -8547,7 +8547,7 @@ body[data-page="work-detail"] .hero p {
     margin-bottom: 60px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="work-detail"] .hero p {
         margin-bottom: 0
     }
@@ -8585,7 +8585,7 @@ body[data-page="work-detail"] .hero .services li:first-child:before {
     display: none
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="work-detail"] #related-tiles {
         margin-top: 80px
     }
@@ -8596,7 +8596,7 @@ body[data-page="work-detail"] #related-tiles .tile {
     height: 400px
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
     body[data-page="work-detail"] #related-tiles .tile {
         width: 100%;
         height: 400px
@@ -8629,7 +8629,7 @@ body[data-page="work-detail"] #related-tiles .tile-new {
     background-position: center
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
     body[data-page="work-detail"] #related-tiles .tile-new {
         width: 100%;
         height: 400px
@@ -8754,7 +8754,7 @@ body[data-page="work-detail"] .testimonial {
     margin-bottom: 30px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="work-detail"] .testimonial {
         margin-bottom: 60px
     }
@@ -8766,7 +8766,7 @@ body[data-page="work-detail"] .testimonial h4 {
     font-size: 20px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="work-detail"] .testimonial h4 {
         font-size: 30px
     }
@@ -8779,7 +8779,7 @@ body[data-page="work-detail"] .testimonial img {
     margin-bottom: 1em
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="work-detail"] .testimonial img {
         margin: 0 22.5px 0 0
     }
@@ -8790,7 +8790,7 @@ body[data-page="work-detail"] .testimonial div.person-info {
     vertical-align: middle
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="work-detail"] .testimonial div.person-info {
         display: inline-block
     }
@@ -8946,7 +8946,7 @@ body[data-page="work-detail"] #fixed-tab-thing[data-stage="hidden"] {
     visibility: hidden
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="work-detail"] .start-a-project .inner {
         position: relative;
         top: 50%;
@@ -9134,7 +9134,7 @@ body[data-page="work-detail"] .btd-inner {
     padding: 30px
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
     body[data-page="work-detail"] .btd-inner {
         padding-left: 327px;
         text-align: left
@@ -9168,7 +9168,7 @@ body[data-page="work-blog"] .hero .services-btd {
     margin: 10px 0 80px
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
     body[data-page="work-detail"] .hero .services-btd,
     body[data-page="work-blog"] .hero .services-btd {
         margin: 80px 0
@@ -9212,7 +9212,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     width: 49%
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
     .logo-pond li {
         width: 24%
     }
@@ -9464,9 +9464,9 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
     #our-products {
-        height: 1000px
+        height: 1200px
     }
 }
 
@@ -9558,31 +9558,31 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     max-width: 100%
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
     #our-products .product-screenshot {
         max-width: none
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
     #our-products #filament-tab .product-screenshot {
         margin-top: 60px
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
     #our-products #filament-tab .product-screenshot {
         margin-top: -110px
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
     #our-products #hellobar-tab .product-screenshot {
         margin-bottom: 60px
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
     #our-products #hellobar-tab .product-screenshot {
         margin-top: -50px
     }
@@ -9935,7 +9935,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     transition: opacity 0.4s ease-in-out
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .tile .hover p {
         display: none
     }
@@ -9977,7 +9977,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     height: 100%
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .tile .hover .tile-top {
         top: 20px;
         -webkit-transition: top 0.3s ease-out;
@@ -10007,7 +10007,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     content: none
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .tile .hover.work .tile-top {
         top: 40px;
         -webkit-transition: top 0.3s ease-out;
@@ -10015,7 +10015,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .tile:hover .hover.work p {
         opacity: 1
     }
@@ -10175,7 +10175,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     text-align: center
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     #hero.careers {
         background-image: url("../img/careers/hero-new2-c1ac27c7.jpg")
     }
@@ -10193,7 +10193,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     padding: 20px 0
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .employee-quotes {
         padding: 40px 0
     }
@@ -10485,7 +10485,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     z-index: 10
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     #perks-video-fix-wrap:after {
         background-image: none;
         background-size: inherit
@@ -10511,7 +10511,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     overflow: hidden
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     #perks {
         padding: 100px 0
     }
@@ -10569,7 +10569,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     #perks ul li {
         height: 270px;
         padding: 3%;
@@ -10613,7 +10613,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     font-size: 14px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     #perks ul li strong {
         font-size: 21px
     }
@@ -10687,7 +10687,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     margin-bottom: 0
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .job-listings h2 {
         font-size: 36px
     }
@@ -10698,7 +10698,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     padding-top: 30px
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .job-listings ul {
         padding-top: 0;
         padding-left: 0;
@@ -10711,7 +10711,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     width: 100%
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .job-listings ul li {
         padding: 15px 0
     }
@@ -10721,7 +10721,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     width: 65px
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 1200px) and (max-width: 992px) {
     .job-listings ul li div.col-xs-11 {
         margin-left: -15px
     }
@@ -10731,7 +10731,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     font-size: 44px
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .job-listings ul li i {
         display: none
     }
@@ -10871,7 +10871,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     margin-bottom: 15px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .landing-page header {
         margin-bottom: 60px
     }
@@ -10887,7 +10887,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     font-size: 32px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .landing-page h1 {
         font-size: 64px
     }
@@ -10898,7 +10898,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     font-size: 20px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .landing-page h2 {
         font-size: 28px
     }
@@ -10915,7 +10915,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     text-align: center
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     [data-page="compass"] section:not(.nav-bar) {
         padding: 60px 0 80px
     }
@@ -10989,7 +10989,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     color: #fff
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     [data-page="compass"] .hero.compass {
         background-image: url("../img/lp/compass/hero-new-4482699a.jpg")
     }
@@ -11037,7 +11037,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     padding: 0 25px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     [data-page="compass"] section.how .step p {
         padding: 0
     }
@@ -11064,7 +11064,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     margin-bottom: 1em
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     [data-page="compass"] .testimonial img {
         margin: 0 22.5px 0 0
     }
@@ -11075,7 +11075,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     vertical-align: middle
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     [data-page="compass"] .testimonial div.person-info {
         display: inline-block
     }
@@ -11200,7 +11200,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     color: #222222
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     [data-page="compass"] section.two-panel ul li {
         font-size: 20px;
         line-height: 1.4em
@@ -11222,7 +11222,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     padding: 40px 20px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     [data-page="compass"] section.two-panel .left_pane,
     [data-page="compass"] section.two-panel .right_pane {
         padding: 50px 30px
@@ -11363,7 +11363,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     [data-page="compass"] #our-products header {
         margin-bottom: 80px
     }
@@ -11383,7 +11383,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     text-align: left
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     [data-page="compass"] section.case-study {
         padding: 80px 0 100px
     }
@@ -11505,7 +11505,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     text-align: center
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     [data-page="sprints"] section:not(.nav-bar) {
         padding: 60px 0 80px
     }
@@ -11571,7 +11571,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     color: #fff
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     [data-page="sprints"] .hero.sprints {
         background-image: url("../img/lp/sprints/hero-6be56850.jpg")
     }
@@ -11637,7 +11637,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     margin-top: 50px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     [data-page="sprints"] .san-diego .img-absolute {
         margin-top: 100px
     }
@@ -11656,7 +11656,7 @@ body[data-page="work-blog"] .hero .services-btd li:first-child:before {
     padding: 50px 15px 25px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     [data-page="sprints"] .san-diego .margin {
         padding: 100px 0 50px
     }
@@ -11904,7 +11904,7 @@ body[data-page="ux-designer"] .job-header {
     position: relative
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="ux-designer"] .job-header {
         padding: 100px 15px
     }
@@ -11985,13 +11985,13 @@ body[data-page="ux-designer"] .ux-des-our-work {
     display: none
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="ux-designer"] .ux-des-our-work {
         display: block
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="ux-designer"] .ux-des-our-work {
         padding: 100px 0
     }
@@ -12107,7 +12107,7 @@ body[data-page="ux-designer"] .our-people {
     background-size: cover
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="ux-designer"] .our-people {
         padding: 60px 0
     }
@@ -12138,7 +12138,7 @@ body[data-page="ux-designer"] .our-people .slide blockquote p {
     margin: 0 auto
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="ux-designer"] .our-people .slide blockquote p {
         font-size: 38px
     }
@@ -12153,7 +12153,7 @@ body[data-page="ux-designer"] .our-people .slide .cite {
     display: none
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="ux-designer"] .our-people .slide .cite {
         display: block
     }
@@ -12215,7 +12215,7 @@ body[data-page="ux-designer"] .our-people .prev {
     z-index: 9999
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="ux-designer"] .our-people .prev {
         font-size: 3em;
         top: 20%
@@ -12239,7 +12239,7 @@ body[data-page="ux-designer"] .our-people .next {
     z-index: 9999
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="ux-designer"] .our-people .next {
         font-size: 3em;
         top: 20%
@@ -12258,7 +12258,7 @@ body[data-page="ux-designer"] .position-requirements {
     background: #fff
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="ux-designer"] .position-requirements {
         padding: 100px 60px 60px
     }
@@ -12331,7 +12331,7 @@ body[data-page="ux-designer"] .what-we-do {
     background: #fff
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="ux-designer"] .what-we-do {
         padding: 40px 15px 100px
     }
@@ -12347,7 +12347,7 @@ body[data-page="ux-designer"] .what-we-do:before {
     top: -40px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="ux-designer"] .what-we-do:before {
         top: -50px
     }
@@ -12363,7 +12363,7 @@ body[data-page="ux-designer"] .what-we-do:after {
     bottom: -40px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="ux-designer"] .what-we-do:after {
         bottom: -100px
     }
@@ -12446,7 +12446,7 @@ body[data-page="ux-designer"] .culture-links {
     background: #fff
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="ux-designer"] .culture-links {
         padding: 80px 15px 146px
     }
@@ -12456,7 +12456,7 @@ body[data-page="ux-designer"] .culture-links .culture-blog {
     margin-bottom: 40px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="ux-designer"] .culture-links .culture-blog {
         margin-bottom: 80px
     }
@@ -12509,7 +12509,7 @@ body[data-page="ux-designer"] .quiz-intro {
     background-color: #fff
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="ux-designer"] .quiz-intro {
         padding: 80px 15px
     }
@@ -12569,7 +12569,7 @@ body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="1"] #ques
 
 body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="1"] #answers .answer-set[data-question-number="1"] {
     opacity: 1.0;
-    z-index: 1000
+    z-index: 1200
 }
 
 body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="2"] #questions .question-pane[data-question-number="2"] {
@@ -12579,7 +12579,7 @@ body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="2"] #ques
 
 body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="2"] #answers .answer-set[data-question-number="2"] {
     opacity: 1.0;
-    z-index: 1000
+    z-index: 1200
 }
 
 body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="3"] #questions .question-pane[data-question-number="3"] {
@@ -12589,7 +12589,7 @@ body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="3"] #ques
 
 body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="3"] #answers .answer-set[data-question-number="3"] {
     opacity: 1.0;
-    z-index: 1000
+    z-index: 1200
 }
 
 body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="4"] #questions .question-pane[data-question-number="4"] {
@@ -12599,7 +12599,7 @@ body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="4"] #ques
 
 body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="4"] #answers .answer-set[data-question-number="4"] {
     opacity: 1.0;
-    z-index: 1000
+    z-index: 1200
 }
 
 body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="5"] #questions .question-pane[data-question-number="5"] {
@@ -12609,7 +12609,7 @@ body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="5"] #ques
 
 body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="5"] #answers .answer-set[data-question-number="5"] {
     opacity: 1.0;
-    z-index: 1000
+    z-index: 1200
 }
 
 body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="6"] #questions .question-pane[data-question-number="6"] {
@@ -12619,7 +12619,7 @@ body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="6"] #ques
 
 body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="6"] #answers .answer-set[data-question-number="6"] {
     opacity: 1.0;
-    z-index: 1000
+    z-index: 1200
 }
 
 body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="7"] #questions .question-pane[data-question-number="7"] {
@@ -12629,7 +12629,7 @@ body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="7"] #ques
 
 body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="7"] #answers .answer-set[data-question-number="7"] {
     opacity: 1.0;
-    z-index: 1000
+    z-index: 1200
 }
 
 body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="8"] #questions .question-pane[data-question-number="8"] {
@@ -12639,7 +12639,7 @@ body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="8"] #ques
 
 body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="8"] #answers .answer-set[data-question-number="8"] {
     opacity: 1.0;
-    z-index: 1000
+    z-index: 1200
 }
 
 body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="9"] #questions .question-pane[data-question-number="9"] {
@@ -12649,7 +12649,7 @@ body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="9"] #ques
 
 body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="9"] #answers .answer-set[data-question-number="9"] {
     opacity: 1.0;
-    z-index: 1000
+    z-index: 1200
 }
 
 body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="10"] #questions .question-pane[data-question-number="10"] {
@@ -12659,7 +12659,7 @@ body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="10"] #que
 
 body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="10"] #answers .answer-set[data-question-number="10"] {
     opacity: 1.0;
-    z-index: 1000
+    z-index: 1200
 }
 
 body[data-page="ux-designer"] #ux-designer-quiz[data-current-question="share"] #questions .question-pane.share-panel {
@@ -12706,7 +12706,7 @@ body[data-page="ux-designer"] #questions .question-pane p.question {
     font-size: 20px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="ux-designer"] #questions .question-pane p.question {
         font-size: 28px
     }
@@ -12820,7 +12820,7 @@ body[data-page="ux-designer"] #questions .question-pane[data-question-number="5"
     background-size: 85%
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="ux-designer"] #questions .question-pane[data-question-number="5"] {
         background-size: 100%
     }
@@ -12833,7 +12833,7 @@ body[data-page="ux-designer"] #questions .question-pane[data-question-number="6"
     background-size: 85%
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="ux-designer"] #questions .question-pane[data-question-number="6"] {
         background-size: 100%
     }
@@ -12852,7 +12852,7 @@ body[data-page="ux-designer"] #questions .question-pane[data-question-number="7"
     max-width: 100%
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="ux-designer"] #questions .question-pane[data-question-number="7"] img {
         max-width: none
     }
@@ -12867,7 +12867,7 @@ body[data-page="ux-designer"] #questions .question-pane[data-question-number="8"
     max-width: 100%
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="ux-designer"] #questions .question-pane[data-question-number="8"] img {
         max-width: none
     }
@@ -12884,7 +12884,7 @@ body[data-page="ux-designer"] #questions .question-pane[data-question-number="10
     background-size: 85%
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="ux-designer"] #questions .question-pane[data-question-number="10"] {
         background-size: 100%;
         background-position: center bottom
@@ -13078,7 +13078,7 @@ body[data-page="ux-designer"] #apply-now>span {
     margin-right: 5px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="ux-designer"] #apply-now>span {
         font-size: 20px;
         margin-right: 30px
@@ -13107,7 +13107,7 @@ body[data-page="lp-ux-designer"] .padding {
     padding: 40px 0
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="lp-ux-designer"] .padding {
         padding: 100px 0
     }
@@ -13117,7 +13117,7 @@ body[data-page="lp-ux-designer"] .less-padding {
     padding: 20px 0
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="lp-ux-designer"] .less-padding {
         padding: 80px 0
     }
@@ -13175,7 +13175,7 @@ body[data-page="lp-ux-designer"] .job-header p {
     color: #fff
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="lp-ux-designer"] .job-header p {
         font-size: 30px
     }
@@ -13391,7 +13391,7 @@ body[data-page="lp-ux-designer"] .content h2 {
     margin-bottom: 0
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="lp-ux-designer"] .content h2 {
         font-size: 42px
     }
@@ -13492,7 +13492,7 @@ body[data-page="lp-ux-designer"] .employee-quotes-slider {
     padding: 0
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
     body[data-page="lp-ux-designer"] .employee-quotes-slider.testimonials {
         padding: 80px 0 0 0
     }
@@ -13536,7 +13536,7 @@ body[data-page="lp-ux-designer"] .employee-quotes-slider .slide-tallest-inner {
     height: auto
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
     body[data-page="lp-ux-designer"] .employee-quotes-slider .slide-tallest-inner {
         height: 100%
     }
@@ -13546,7 +13546,7 @@ body[data-page="lp-ux-designer"] .employee-quotes-slider .slide-inner {
     padding: 0 10px
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
     body[data-page="lp-ux-designer"] .employee-quotes-slider .slide-inner {
         height: 100%;
         padding: 0 30px
@@ -13557,7 +13557,7 @@ body[data-page="lp-ux-designer"] .employee-quotes-slider .employee-image {
     display: none
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
     body[data-page="lp-ux-designer"] .employee-quotes-slider .employee-image {
         display: block;
         padding-left: 5%;
@@ -13583,7 +13583,7 @@ body[data-page="lp-ux-designer"] .employee-quotes-slider .employee-quote blockqu
     text-align: center
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
     body[data-page="lp-ux-designer"] .employee-quotes-slider .employee-quote blockquote {
         text-align: left;
         padding: 0
@@ -13619,7 +13619,7 @@ body[data-page="lp-ux-designer"] #apply p {
     line-height: 1.2em
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="lp-ux-designer"] #apply p {
         font-size: 26px
     }
@@ -13702,7 +13702,7 @@ body[data-page="lp-ux-designer"] .footer {
     margin-right: 5px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     #apply-now>span {
         font-size: 20px;
         margin-right: 30px
@@ -14220,7 +14220,7 @@ body[data-page="process"] #pre-footer .new-relic {
     background-size: cover
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="process"] #pre-footer .new-relic {
         background: url("../img/process/bg-prefooter-right-e1287ff2.jpg") center no-repeat;
         background-size: cover
@@ -14323,7 +14323,7 @@ body[data-page="process"] .contact-form-wrapper {
     padding: 20px 15px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     body[data-page="process"] .contact-form-wrapper {
         padding: 60px 15px
     }
@@ -14337,7 +14337,7 @@ body[data-page="process"] .contact-form .form-header p {
     padding-top: 80px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .single {
         padding-bottom: 40px
     }
@@ -14454,7 +14454,7 @@ body[data-page="process"] .contact-form .form-header p {
     text-transform: uppercase
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     #hero.page-404 h2 {
         font-size: 36px
     }
@@ -14483,7 +14483,7 @@ body[data-page="process"] .contact-form .form-header p {
     color: #fff
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .hero.workshops {
         background-image: url("../img/workshops/hero-6de187f7.jpg")
     }
@@ -14566,7 +14566,7 @@ body[data-page="process"] .contact-form .form-header p {
     align-items: center
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .workshops-images .workshops-image {
         width: 25%
     }
@@ -14622,7 +14622,7 @@ body[data-page="process"] .contact-form .form-header p {
     color: #1e1e1e
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .workshops-topic {
         min-height: 530px;
         margin-bottom: 45px
@@ -14639,7 +14639,7 @@ body[data-page="process"] .contact-form .form-header p {
     font-size: 16px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .workshops-topic h3 {
         font-size: 20px
     }
@@ -14695,7 +14695,7 @@ body[data-page="process"] .contact-form .form-header p {
     margin-bottom: 20px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .workshops-who .col-sm-6:nth-child(3) {
         clear: both
     }
@@ -14745,7 +14745,7 @@ body[data-page="process"] .contact-form .form-header p {
     margin: 0
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .workshops-testimonial blockquote {
         padding-left: 120px;
         text-align: left
@@ -14763,7 +14763,7 @@ body[data-page="process"] .contact-form .form-header p {
     overflow: hidden
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .workshops-testimonial img {
         display: block
     }
@@ -14793,7 +14793,7 @@ body[data-page="process"] .contact-form .form-header p {
     font-size: 16px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .workshops-testimonial footer {
         font-size: 18px
     }
@@ -14807,7 +14807,7 @@ body[data-page="process"] .contact-form .form-header p {
     margin: 0 auto 15px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .workshops-testimonial footer img {
         display: none
     }
