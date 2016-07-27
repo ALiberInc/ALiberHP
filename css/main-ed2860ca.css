@@ -4558,16 +4558,14 @@ ul.level-1-nav a {
 }
 
 .nav-bar .identity a {
+    /*
     display: inline-block;
+    */
     position: relative;
     z-index: 9
 }
 
-.nav-bar .identity svg {
-    width: 180px;
-    height: 25px
-}
-
+/*
 .nav-bar .identity .dt-brandmark {
     fill: #fff
 }
@@ -4575,6 +4573,7 @@ ul.level-1-nav a {
 .nav-bar .identity .dt-logo {
     fill: #fff
 }
+*/
 
 .nav-bar .hamburger {
     right: 20px;
@@ -8262,21 +8261,23 @@ body[data-page="contact"] .map-close {
 }
 
 #hero.work {
+    /*
     background-image: url("../img/work/hero-bg-0d1b744c.jpg");
     padding: 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    */
     background-color: #000;
     text-align: center
 }
-
+/*
 @media (min-width: 1200px) {
     #hero.work {
         background-image: url("../img/work/hero-bg-0d1b744c.jpg")
     }
 }
-
+*/
 #hero.work h1 {
     margin-bottom: 15px
 }
