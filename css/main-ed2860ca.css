@@ -3736,7 +3736,8 @@ body {
     z-index: 1
 }
 
-.hero h1,.hero h2 {
+.hero h1,
+.hero h2 {
     text-align: center;
     letter-spacing: -0.05em
 }
@@ -4564,6 +4565,21 @@ ul.level-1-nav a {
     position: relative;
     z-index: 9
 }
+
+@media (max-width: 768px) {
+    .nav-bar .identity a  img{
+        width: 20%;
+        height: 20%
+    }
+}
+
+@media (min-width: 769px) {
+    .nav-bar .identity a  img{
+        width: 10%;
+        height: 10%
+    }
+}
+
 
 /*
 .nav-bar .identity .dt-brandmark {
@@ -5958,19 +5974,18 @@ body[data-page="ux-designer"] .footer {
 
 @media (min-width: 1200px) {
     #home {
-     /*   background-image: none */
-/*新增 */
-    background-image: url("../img/homepage_bg_yoko.jpg");
-    z-index: 1;
-    padding: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    position: fixed;
-    text-align: center
-/*新增 */
-        
+        /*   background-image: none */
+        /*新增 */
+        background-image: url("../img/homepage_bg_yoko.jpg");
+        z-index: 1;
+        padding: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        position: fixed;
+        text-align: center
+        /*新增 */
     }
 }
 
@@ -8271,6 +8286,8 @@ body[data-page="contact"] .map-close {
     background-color: #000;
     text-align: center
 }
+
+
 /*
 @media (min-width: 1200px) {
     #hero.work {
@@ -8278,6 +8295,7 @@ body[data-page="contact"] .map-close {
     }
 }
 */
+
 #hero.work h1 {
     margin-bottom: 15px
 }
