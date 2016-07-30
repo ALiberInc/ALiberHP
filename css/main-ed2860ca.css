@@ -5,6 +5,11 @@
 #top-gaiyou{
     margin-top: 100px;
 }
+
+#top-yuurai{
+    margin-top: 300px;
+}
+
 .cp-gaiyou {
 margin-bottom: 30px;
 color:#fff;
@@ -462,7 +467,6 @@ hr {
     padding-right: 15px
 }
 
-/*
 .container:before,
 .container:after {
     content: " ";
@@ -473,7 +477,6 @@ hr {
     clear: both
 }
 
-*/
 @media (min-width: 1200px) {
     .container {
         width: 750px
@@ -498,7 +501,6 @@ hr {
     padding-left: 15px;
     padding-right: 15px
 }
-
 
 .container-fluid:before,
 .container-fluid:after {
