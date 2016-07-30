@@ -2,6 +2,41 @@
 @import url("../fonts/css/fontello-f69a3c44.css");
 @import url("../js/pannellum/css/pannellum-41ff0418.css");
 
+#top-gaiyou{
+    margin-top: 100px;
+}
+.cp-gaiyou {
+margin-bottom: 30px;
+color:#fff;
+font-family: "Whitney SSm A", "Whitney SSm B", sans-serif;
+}
+.cp-gaiyou dl {
+margin: 0 15% 0 1%;
+}
+.cp-gaiyou dl dt {
+clear: both;
+float: left;
+margin: 0;
+width: 7em;
+}
+.cp-gaiyou dl dt {
+display: block;
+}
+.cp-gaiyou dl dd {
+margin: 1em 0 1em 7em;
+padding-left: 1em;
+border-left: 2px solid #fff;
+}
+.cp-gaiyou dl dd ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+dt {
+    font-weight: bold;
+}
+
 .blinking{
     -webkit-animation:blink 1.5s ease-in-out infinite alternate;
     -moz-animation:blink 1.5s ease-in-out infinite alternate;
@@ -419,6 +454,7 @@ hr {
     border: 0
 }
 
+
 .container {
     margin-right: auto;
     margin-left: auto;
@@ -426,6 +462,7 @@ hr {
     padding-right: 15px
 }
 
+/*
 .container:before,
 .container:after {
     content: " ";
@@ -436,6 +473,7 @@ hr {
     clear: both
 }
 
+*/
 @media (min-width: 1200px) {
     .container {
         width: 750px
@@ -460,6 +498,7 @@ hr {
     padding-left: 15px;
     padding-right: 15px
 }
+
 
 .container-fluid:before,
 .container-fluid:after {
