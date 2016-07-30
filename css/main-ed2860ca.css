@@ -1,6 +1,28 @@
 @import url("../fonts/css/goodfont.css");
 @import url("../fonts/css/fontello-f69a3c44.css");
 @import url("../js/pannellum/css/pannellum-41ff0418.css");
+
+.blinking{
+    -webkit-animation:blink 1.5s ease-in-out infinite alternate;
+    -moz-animation:blink 1.5s ease-in-out infinite alternate;
+    animation:blink 1.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -4568,15 +4590,15 @@ ul.level-1-nav a {
 
 @media (max-width: 768px) {
     .nav-bar .identity a  img{
-        width: 20%;
-        height: 20%
+        width: 16%;
+        height: 16%
     }
 }
 
 @media (min-width: 769px) {
     .nav-bar .identity a  img{
-        width: 10%;
-        height: 10%
+        width: 6%;
+        height: 6%
     }
 }
 
