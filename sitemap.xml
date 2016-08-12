@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://www.aliber.co.jp/</loc>
+  <lastmod>2016-08-12T03:11:33+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>http://www.aliber.co.jp/index.html</loc>
+  <lastmod>2016-08-12T03:11:33+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>http://www.aliber.co.jp/introduction/index.html</loc>
+  <lastmod>2016-08-12T03:11:22+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>http://www.aliber.co.jp/content/index.html</loc>
+  <lastmod>2016-08-12T03:10:46+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>http://www.aliber.co.jp/hr/index.html</loc>
+  <lastmod>2016-08-12T03:11:11+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>http://www.aliber.co.jp/contact/index.html</loc>
+  <lastmod>2016-08-12T03:10:36+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+</url>
+</urlset>

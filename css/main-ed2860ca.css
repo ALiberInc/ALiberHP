@@ -6750,13 +6750,13 @@ body[data-page="contact"] .nav-bar .hamburger span {
 
 .map-content-wrapper {
     position: absolute;
-    bottom: 30px;
+    bottom: 5px;
     width: 100%
 }
 
 .map-content-wrapper .map-content {
     width: 90%;
-    height: 140px;
+    height: 200px;
     background: white;
     margin: 0 auto;
     position: relative
@@ -6793,7 +6793,7 @@ body[data-page="contact"] .nav-bar .hamburger span {
 }
 
 .map-content-wrapper .map-content .map-left {
-    height: 140px;
+    height: 200px;
     position: absolute;
     left: 0;
     width: 185px
@@ -6804,7 +6804,7 @@ body[data-page="contact"] .nav-bar .hamburger span {
     position: absolute;
     left: 155px;
     padding: 0 15px;
-    height: 140px
+    height: 200px
 }
 
 @media (min-width: 480px) {
@@ -6860,7 +6860,7 @@ body[data-page="contact"] .nav-bar .hamburger span {
 
 @media (min-width: 1200px) {
     .map-content-wrapper .map-content .map-right p {
-        font-size: 15px
+        font-size: 12px
     }
 }
 
