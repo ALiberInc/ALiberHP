@@ -38,9 +38,7 @@
     <section class='nav-bar container-fluid' id='navbar'>
         <div class='nav-bar-inner'>
             <div class='identity'>
-                <a href="../index.html">
-                   <img src="../img/aliber_logo.png" height="30px" width="66px"/> 
-                </a>
+                <a href="../index.html"> <img src="../img/aliber_logo.png" height="30px" width="66px" /> </a>
             </div> <a class="menu-text" href="javascript:;">MENU</a> </div>
         <div class='menu-wrap'>
             <a class="hamburger menu" href="javascript:;">
@@ -62,13 +60,13 @@
                     <p>仕事を通じて、良い成果をだして、お客様のビジネスを支えております。</p>
                     <p>万が一、トラブルが発生してしまいましたら、お客様とともに、迅速に解決策を探り出して、</p>
                     <p>円満に解決するように一生懸命頑張ります。</p>
-                    <p class="blinking"><a href="#service">
-                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200">
-                            <path fill="#FFFFFF" d="M22,79 L100,112 L178,79 L22,79 Z" /> </svg>
+                    <p class="blinking">
+                        <a href="#service">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200">
+                                <path fill="#FFFFFF" d="M22,79 L100,112 L178,79 L22,79 Z" /> </svg>
                         </a>
                     </p>
-                    <br/>
-                </div>
+                    <br/> </div>
             </section>
         </header>
     </div>
@@ -79,13 +77,13 @@
                 <h1>自社サービス運営</h1>
                 <div class='row'>
                     <p>自社独自のポータルサイトを運営し、サービスをエンドユーザに提供しております。</p>
-                    <p class="blinking"><a href="#jpcncommunication">
-                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200">
-                            <path fill="#FFFFFF" d="M22,79 L100,112 L178,79 L22,79 Z" /> </svg>
+                    <p class="blinking">
+                        <a href="#jpcncommunication">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200">
+                                <path fill="#FFFFFF" d="M22,79 L100,112 L178,79 L22,79 Z" /> </svg>
                         </a>
                     </p>
-                    <br/>
-                </div>
+                    <br/> </div>
             </section>
         </header>
     </div>
@@ -97,13 +95,13 @@
                 <div class='row'>
                     <p>優秀な日本IT技術、ソフトウェア、WEBサービスを中国に輸出し、</p>
                     <p>現地で運用・サポートしております。</p>
-                    <p class="blinking"><a href="#newbusiness">
-                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200">
-                            <path fill="#FFFFFF" d="M22,79 L100,112 L178,79 L22,79 Z" /> </svg>
+                    <p class="blinking">
+                        <a href="#newbusiness">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200">
+                                <path fill="#FFFFFF" d="M22,79 L100,112 L178,79 L22,79 Z" /> </svg>
                         </a>
                     </p>
-                    <br/>
-                </div>
+                    <br/> </div>
             </section>
         </header>
     </div>
@@ -121,7 +119,7 @@
     </div>
     <div class='nav-overlay full-screen-overlay dt-height' id='nav-overlay'>
         <ul class='level-1-nav list-unstyled'>
-             <li class='home'> <a class="home active" href="../index.html">ホーム</a> </li>
+            <li class='home'> <a class="home active" href="../index.html">ホーム</a> </li>
             <li class='our-work'> <a class="our-work" href="../introduction/index.html">会社概要</a></li>
             <li class='services'> <a class="services" href="index.html">業務内容</a></li>
             <li class='hr'> <a class="hr" href="../hr/index.html">人材募集</a></li>
@@ -129,20 +127,23 @@
         </ul>
         <div class='nav-footer'>
             <div class='border'></div>
-            <p>&copy; 2016 ALiber Inc.<br/>All rights reserved.</p>
+            <p>&copy; 2016-2017 ALiber Inc.
+                <br/>All rights reserved.</p>
         </div>
     </div>
-<script type="text/javascript">
-$('a[href*="#"]').click(function() {
-    var target = $(this.hash);
-    //if (target.length) {
-    if (target) {
-        var targetOffset = target.offset().top;
-        $('html,body').animate({scrollTop: targetOffset},1000,"easeInOutQuart");
-        return false;
-        }
-    });    
-</script>
+    <script type="text/javascript">
+        $('a[href*="#"]').click(function () {
+            var target = $(this.hash);
+            //if (target.length) {
+            if (target) {
+                var targetOffset = target.offset().top;
+                $('html,body').animate({
+                    scrollTop: targetOffset
+                }, 1000, "easeInOutQuart");
+                return false;
+            }
+        });
+    </script>
 </body>
 
 </html>
