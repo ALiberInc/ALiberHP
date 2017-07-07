@@ -4894,7 +4894,7 @@ ul.level-1-nav a {
     font-weight: 400;
     width: 100%;
     margin-top: 0;
-    font-family: "Sentinel SSm A", "Sentinel SSm B", serif;
+    font-family: "Whitney SSm A", "Whitney SSm B", sans-serif;
     text-transform: none;
     -webkit-transition: all 300ms ease-in;
     transition: all 300ms ease-in
@@ -5219,7 +5219,7 @@ body[data-homepage-number="3"][data-nav-color="light"][data-dtway="0"].nav-open 
     font-weight: 400;
     width: 100%;
     margin-top: 0;
-    font-family: "Sentinel SSm A", "Sentinel SSm B", serif;
+    font-family: "Whitney SSm A", "Whitney SSm B", sans-serif;
     text-transform: none
 }
 
@@ -7212,7 +7212,7 @@ body[data-page="contact"] .map-close {
 }
 
 .full-story-overlay article p {
-    font-family: "Sentinel SSm A", "Sentinel SSm B", serif;
+    font-family: "Whitney SSm A", "Whitney SSm B", sans-serif;
     font-size: 21px;
     line-height: 1.4em;
     margin-bottom: 1em
@@ -8946,7 +8946,7 @@ button.mfp-close,
 }
 
 #apply-now>span {
-    font-family: "Sentinel SSm A", "Sentinel SSm B", serif;
+    font-family: "Whitney SSm A", "Whitney SSm B", sans-serif;
     color: #fff;
     display: inline-block;
     font-size: 13px;
@@ -8984,7 +8984,7 @@ button.mfp-close,
 
 .do-dont-column h3 span {
     font-weight: 100;
-    font-family: "Sentinel SSm A", "Sentinel SSm B", serif;
+    font-family: "Whitney SSm A", "Whitney SSm B", sans-serif;
     font-style: italic
 }
 
