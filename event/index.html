@@ -8,8 +8,8 @@
     <!--render the width of the page at the width of its own screen-->
     <meta content='width=device-width, initial-scale=1' name='viewport'>
     <title>株式会社アリベル-イベント</title>
-    <meta content="株式会社アリベルのお問い合わせ画面です。会社住所、電話番号、最寄り駅などの情報が全て記載しております。何か不明点がありましたら、お気軽に「メール送信」ボタンをクリックして、お問い合わせください。お待ちしております。" name='description'>
-    <meta content="contact,お問い合わせ,address,住所,tel,電話番号,nearest station,最寄り駅,mail,メール" name='keywords'>
+    <meta content="株式会社アリベルのイベント画面です。" name='description'>
+    <meta content="event,イベント" name='keywords'>
     <!--set the toolbar color #29aecc，Starting in version 39 of Chrome for Android on Lollipop-->
     <meta content='#29aecc' name='theme-color'>
     <!--
@@ -30,6 +30,13 @@
     <link href="../css/main-ed2860ca.css" media="screen" rel="stylesheet" type="text/css" />
     <link rel="alternate" hreflang="ja" href="http://www.aliber.co.jp/contact/index.html">
     <script src="../js/main-d383dc7a.js" type="text/javascript"></script>
+    <!-- jQuery library (served from Google) -->
+    <script src="../js/jquery-3.1.0.min.js"></script>
+    <!-- bxSlider Javascript file -->
+    <script src="../js/jquery.bxslider.min.js"></script>
+    <!-- bxSlider CSS file -->
+    <link href="../css/jquery.bxslider.min.css" rel="stylesheet" />
+
 </head>
 
 <body data-logo-color='light' data-nav-color='dark' data-overlay-id='false' data-overlay-open='false' data-page='contact' data-section='unity'>
@@ -39,13 +46,16 @@
                 <a href="../index.html"> <img src="../img/aliber_logo.png" height="30px" width="66px" /> </a>
             </div> <a class="menu-text" href="javascript:;">MENU</a> </div>
         <div class='menu-wrap'>
-            <a class="hamburger menu blue" href="javascript:;">
+            <a class="hamburger menu" href="javascript:;">
                 <div></div>
                 <div></div>
                 <div></div>
             </a>
         </div>
     </section>
+
+    <ul class="bxslider">
+    </ul>
     <div class='nav-overlay full-screen-overlay dt-height' id='nav-overlay'>
         <ul class='level-1-nav list-unstyled'>
             <li class='home'> <a class="home" href="../index.html">ホーム</a> </li>
@@ -53,7 +63,7 @@
             <li class='services'> <a class="services" href="../content/index.html">業務内容</a> </li>
             <li class='hr'> <a class="hr" href="../hr/index.html">人材募集</a></li>
             <li class='hr'> <a class="hr" href="../news/index.html">最新記事</a></li>
-            <li class='contact'> <a class="contact active" href="index.html">お問い合わせ</a> </li>
+            <li class='contact'> <a class="contact active" href="../contact/index.html">お問い合わせ</a> </li>
         </ul>
         <div class='nav-footer'>
             <div class='border'></div>
@@ -62,5 +72,25 @@
         </div>
     </div>
 </body>
+<script>
+    //从images文件夹读取所有图片
+    $(document).ready(function() {
+        var folder = "./images/";
+        $.ajax({
+            url: folder,
+            success: function(data) {
+                $(data).find("a").attr("href", function(i, val) {
+                    if (val.match(/\.(jpe?g|png|gif)$/)) {
+                        $('.bxslider').append("<li><img src = '" + folder + val + "' /></li>");
+                    }
+                });
+                $('.bxslider').bxSlider();
+            }
+        });
+
+
+    })
+
+</script>
 
 </html>
