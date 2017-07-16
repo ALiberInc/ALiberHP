@@ -75,20 +75,20 @@
 <script>
     //从images文件夹读取所有图片
     $(document).ready(function() {
-        var folder = "./images/";
         $.ajax({
-            url: folder,
+            url: "getImages.php",
+            dataType: "json",
             success: function(data) {
-                $(data).find("a").attr("href", function(i, val) {
-                    if (val.match(/\.(jpe?g|png|gif)$/)) {
-                        $('.bxslider').append("<li><img src = '" + folder + val + "' /></li>");
+                $.each(data, function(i, filename) {
+                        if (filename.match(/\.(jpe?g|png|gif)$/)) {
+                            $('.bxslider').append("<li><img src = '" + filename + "' /></li>");
+                        }
                     }
-                });
+
+                )
                 $('.bxslider').bxSlider();
             }
         });
-
-
     })
 
 </script>
