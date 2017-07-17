@@ -1,4 +1,5 @@
 ##ALiberHP
+
 The Official Homepage of ALiber
 
 #### Easy Run Instructions:
@@ -7,6 +8,7 @@ The Official Homepage of ALiber
 1.  Put the ALiberHP folder under： /Library/WebServer/Documents/
 
 2.  Enable PHP for Apache
+
       Edit the Apache configuration: 
       	/etc/apache2/httpd.conf
       	
