@@ -38,6 +38,25 @@ padding: 0;
 list-style: none;
 }
 
+.news-list {
+margin-bottom: 30px;
+color:#fff;
+font-family: "Whitney SSm A", "Whitney SSm B", sans-serif;
+}
+
+.news-list dl dt{
+clear: both;
+float: left;
+margin: 0;
+width: 7em;
+}
+
+.news-list dd {
+    font-weight: bold;
+    text-align: left;
+}
+
+
 dt {
     font-weight: bold;
 }
